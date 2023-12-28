@@ -1,0 +1,72 @@
+body {
+    background-color: #2C3532;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #1FA1A4;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 26px;
+    color: aliceblue;
+}
+
+#title-2 {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin: 2rem;
+    padding-top: 3rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#num-limite {
+    height: 43px;
+    width: 28rem;
+    border-radius: 10px;
+}
+
+#num-limite-label {
+    padding: 10px;
+    color: rgba(240, 248, 255, 0.425);
+}
+
+#botao-sortear {
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px 80px;
+    border-radius: 20px;
+    background: #D2E8E3;
+}
+
+/*Fazer hover para o botao*/
+#botao-sortear:hover {
+    color: #1FA1A4;
+    cursor: pointer;
+}
+
+#assinature {
+    display: flex;
+    justify-content: center;
+    color: rgb(197, 198, 199);;
+}
